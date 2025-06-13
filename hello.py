@@ -80,7 +80,6 @@ return node.left
     def _inorder_recursive(self, node):
         return self._inorder_recursive(node.left) + [node.value] + self._inorder_recursive(node.right) if node else []
 
- Example;
 if __name__ == "__main__":
     bst = BinarySearchTree()
     bst.insert(50)
